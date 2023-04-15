@@ -1,8 +1,10 @@
 import os
-import sqlite3
 import logging
-import datetime
+import pandas as pd
 
+# Recompiled version of sqlite3 with larger nr. of supported columns
+from pysqlite3 import dbapi2 as sqlite3
+from datetime import datetime
 from barbell2_castor.api import CastorApiClient
 
 
@@ -94,6 +96,7 @@ class DictToSqlite3:
         self.log_level = log_level
         logging.root.setLevel(self.log_level)
 
+    @staticmethod
     def get_sql_object_for_field_data(field_data, i):
         value = field_data['field_values'][i]
         if (field_data['field_type'] == 'radio' or field_data['field_type'] == 'dropdown' or field_data['field_type'] == 'year') and value != '':
@@ -114,9 +117,10 @@ class DictToSqlite3:
         return str(field_data['field_values'][i])
 
     def generate_list_of_sql_statements_for_inserting_records(self, data):
+        nr_records = len(data[list(data.keys())[0]]['field_values'])
+        logger.info(f'nr. records: {nr_records}')
         placeholders = []
         values = []
-        nr_records = 1
         for i in range(nr_records):
             placeholder = 'INSERT INTO data ('
             value = []
@@ -129,7 +133,7 @@ class DictToSqlite3:
             placeholder = placeholder[:-2] + ');'
             placeholders.append(placeholder)
             values.append(value)
-        return values, placeholders
+        return placeholders, values
     
     def generate_sql_field_from_field_type_and_field_name(self, field_type, field_name):
         return '{} {}'.format(field_name, DictToSqlite3.CASTOR_TO_SQL_TYPES[field_type])
@@ -173,6 +177,48 @@ class DictToSqlite3:
 
 """ --------------------------------------------------
 """
+class CastorQuery:
+
+    def __init__(self, db_file):
+        self.db = self.load_db(db_file)
+        self.output = None
+
+    def __del__(self):
+        if self.db:
+            self.db.close()
+            self.db = None
+
+    def load_db(self, db_file):
+        try:
+            db = sqlite3.connect(db_file)
+            return db
+        except sqlite3.Error as e:
+            logger.error(e)
+        return None
+
+    @staticmethod
+    def get_column_names(data):
+        column_names = []
+        for column in data.description:
+            column_names.append(column[0])
+        return column_names
+    
+    def to_csv(self, output_file):
+        self.output.to_csv(output_file, sep=';', index=False)
+
+    def execute(self, query):
+        self.output = None
+        cursor = self.db.cursor()
+        data = cursor.execute(query)
+        df_data = []
+        for result in data:
+            df_data.append(result)
+        self.output = pd.DataFrame(df_data, columns=self.get_column_names(data))        
+        return self.output
+
+
+""" --------------------------------------------------
+"""
 if __name__ == '__main__':
     def main():
         c2d = CastorToDict(
@@ -188,5 +234,9 @@ if __name__ == '__main__':
             add_timestamp=False,
             log_level=logging.INFO,
         )
-        d2q.execute()
+        db_file = d2q.execute()
+        query_engine = CastorQuery(db_file)
+        df = query_engine.execute(
+            'SELECT dpca_idcode, dpca_typok$1, dpca_typok$2 FROM data WHERE dpca_typok$1 = 1;')
+        print(df.head())
     main()

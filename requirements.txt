@@ -2,3 +2,4 @@ wheel
 oauthlib
 requests-oauthlib
 pandas
+pysqlite3
