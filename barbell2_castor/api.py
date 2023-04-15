@@ -43,8 +43,6 @@ class CastorApiClient:
         self.session = self.create_session(self.client_id, self.client_secret)
 
     def get_studies(self):
-        """ Returns list of study objects
-        """
         uri = self.api_url + '/study'
         if self.verbose:
             logger.info(f'get_studies() uri={uri}')
@@ -58,9 +56,6 @@ class CastorApiClient:
         return studies
 
     def get_study(self, name):
-        """ Returns study object for given name
-        :param name Study name
-        """
         if self.verbose:
             logger.info(f'get_study(name={name}')
         for study in self.studies:
@@ -69,9 +64,6 @@ class CastorApiClient:
         return None
 
     def get_study_id(self, study):
-        """ Returns study ID for given study object
-        :param study Study object
-        """
         if self.verbose:
             if 'study_id' not in study.keys():
                 logger.info(f'get_study_id(study={study}) missing key study_id')
@@ -79,10 +71,6 @@ class CastorApiClient:
         return study_id
 
     def get_records(self, study_id):
-        """ Returns list of records
-        :param study_id Study ID
-        :param verbose
-        """
         record_url = self.api_url + '/study/{}/record'.format(study_id)
         response = self.session.get(record_url)
         response_data = response.json()
@@ -100,10 +88,6 @@ class CastorApiClient:
         return records
     
     def get_record_field_data(self, study_id, record_id):
-        """ Returns list of all field values for this record 
-        :param study_id: Study ID
-        :param record_id: Record (or participant) ID
-        """
         record_url = self.api_url + '/study/{}/participant/{}/data-points/study'.format(study_id, record_id)
         response = self.session.get(record_url)
         record_field_data = response.json()
@@ -111,17 +95,10 @@ class CastorApiClient:
 
     @staticmethod
     def get_record_id(record):
-        """ Returns record ID for given record object
-        :param record Record object
-        """
         record_id = record['id']
         return record_id
 
     def get_fields(self, study_id):
-        """ Returns list of field objects defined for the given study
-        :param study_id Study ID
-        :param verbose
-        """
         field_url = self.api_url + '/study/{}/field'.format(study_id)
         response = self.session.get(field_url)
         response_data = response.json()
@@ -139,10 +116,6 @@ class CastorApiClient:
 
     @staticmethod
     def get_field(fields, name):
-        """ Returns field object of given name
-        :param fields List of field objects to search through
-        :param name Field name
-        """
         for field in fields:
             if field['field_variable_name'] == name:
                 return field
@@ -150,26 +123,15 @@ class CastorApiClient:
 
     @staticmethod
     def get_field_id(field):
-        """ Returns field ID for given field object
-        :param field Field object
-        """
         field_id = field['id']
         return field_id
 
     @staticmethod
     def get_field_type(field):
-        """ Returns field type for given field object
-        :param field Field object
-        """
         field_type = field['field_type']
         return field_type
 
     def get_field_value(self, study_id, record_id, field_id):
-        """ Returns value for given field, record and study
-        :param study_id Study ID
-        :param record_id Record ID
-        :param field_id Field ID for which data is retrieved
-        """
         field_data_url = self.api_url + '/study/{}/record/{}/study-data-point/{}'.format(study_id, record_id, field_id)
         response = self.session.get(field_data_url)
         if response.status_code == 200:
