@@ -243,7 +243,8 @@ class CastorApiClient:
                 data[field_name] = []
             else:
                 for option_name in option_groups[option_group_id].keys():
-                    data[f'{field_name}${option_groups[option_group_id][option_name]}'] = []
+                    k = f'{field_name}${option_groups[option_group_id][option_name]}'
+                    data[k] = []
         # print(json.dumps(data, indent=4))
         for field_id in field_defs.keys():
             field_name = field_defs[field_id][0]
@@ -251,11 +252,30 @@ class CastorApiClient:
             field_option_group = field_defs[field_id][2]
             if field_option_group == '':
                 for record_id in list(records.keys()):
-                    if field_name in data.keys():
-                        pass
+                    # We know field_name is one of the keys in data. We just need to check
+                    # whether records has an entry for this field (with a value). If not, we
+                    # assign empty string
+                    if field_id in records[record_id].keys():
+                        data[field_name].append(records[record_id][field_id])
+                    else:
+                        data[field_name].append('')
             else:
-                for option_name in option_groups[option_group_id].keys():
-                    pass
+                for record_id in list(records.keys()):
+                    if field_id in records[record_id].keys():
+                        record_value = records[record_id][field_id]
+                        for option_name in option_groups[option_group_id].keys():
+                            option_value = option_groups[option_group_id][option_name]
+                            k = f'{field_name}${option_value}'
+                            if record_value == option_value:
+                                data[k].append('1')
+                            else:
+                                data[k].append('0')
+                    else:
+                        for option_name in option_groups[option_group_id].keys():
+                            option_value = option_groups[option_group_id][option_name]
+                            k = f'{field_name}${option_value}'
+                            data[k].append('')
+        return data
 
     def get_study_data2(self, study_id):
         logger.info('getting study structure...')
