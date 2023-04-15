@@ -150,23 +150,41 @@ class DictToSqlite3:
     def execute(self):
         self.create_sql_database(self.data)
         return self.output_db_file
+    
+
+class CastorToSqlite3:
+
+    def __init__(
+            self,
+            study_name,
+            client_id,
+            client_secret,
+            output_db_file='castor.db',
+            add_timestamp=False,
+            log_level=logging.INFO, 
+            ):
+        self.castor2dict = CastorToDict(study_name, client_id, client_secret, log_level)        
+        self.output_db_file = output_db_file
+        self.add_timestamp = add_timestamp        
+        self.log_level = log_level
+        logging.root.setLevel(self.log_level)
+
+    def execute(self):
+        data = self.castor2dict.execute()
+        dict2sqlite = DictToSqlite3(data, self.output_db_file, self.add_timestamp, self.log_level)
+        return dict2sqlite.execute()
 
 
 if __name__ == '__main__':
     def main():
-        c2d = CastorToDict(
+        extractor = CastorToSqlite3(
             study_name='ESPRESSO_v2.0_DPCA',
             client_id=open(os.path.join(os.environ['HOME'], 'castorclientid.txt')).readline().strip(),
             client_secret=open(os.path.join(os.environ['HOME'], 'castorclientsecret.txt')).readline().strip(),
-            log_level=logging.INFO,
-        )
-        data = c2d.execute()
-        d2q = DictToSqlite3(
-            data=data,
             output_db_file='castor.db',
             add_timestamp=False,
             log_level=logging.INFO,
         )
-        db_file = d2q.execute()
+        db_file = extractor.execute()
         print(db_file)
     main()
