@@ -8,6 +8,7 @@ from barbell2_castor.utils import current_time_secs, elapsed_secs, duration
 
 logger = logging.getLogger('__name__')
 
+
 class CastorApiClient:
 
     base_url = 'https://data.castoredc.com'
@@ -202,11 +203,14 @@ class CastorApiClient:
             field_type = field_defs[field_id][1]
             field_option_group = field_defs[field_id][2]
             if field_option_group == '':
-                data[field_name] = []
+                # data[field_name] = []
+                data[field_name] = {'field_type': '', 'field_values': []}
             else:
                 for option_name in option_groups[option_group_id].keys():
-                    k = f'{field_name}${option_groups[option_group_id][option_name]}'
-                    data[k] = []
+                    option_value = option_groups[option_group_id][option_name]
+                    k = f'{field_name}${option_value}'
+                    # data[k] = []
+                    data[k] = {'field_type': '', 'field_values': []}
         # print(json.dumps(data, indent=4))
         for field_id in field_defs.keys():
             field_name = field_defs[field_id][0]
@@ -217,10 +221,11 @@ class CastorApiClient:
                     # We know field_name is one of the keys in data. We just need to check
                     # whether records has an entry for this field (with a value). If not, we
                     # assign empty string
+                    data[field_name]['field_type'] = field_type
                     if field_id in records[record_id].keys():
-                        data[field_name].append(records[record_id][field_id])
+                        data[field_name]['field_values'].append(records[record_id][field_id])
                     else:
-                        data[field_name].append('')
+                        data[field_name]['field_values'].append('')
             else:
                 for record_id in list(records.keys()):
                     if field_id in records[record_id].keys():
@@ -228,60 +233,16 @@ class CastorApiClient:
                         for option_name in option_groups[option_group_id].keys():
                             option_value = option_groups[option_group_id][option_name]
                             k = f'{field_name}${option_value}'
+                            data[k]['field_type'] = field_type
                             if record_value == option_value:
-                                data[k].append('1')
+                                data[k]['field_values'].append('1')
                             else:
-                                data[k].append('0')
+                                data[k]['field_values'].append('0')
                     else:
                         for option_name in option_groups[option_group_id].keys():
                             option_value = option_groups[option_group_id][option_name]
                             k = f'{field_name}${option_value}'
-                            data[k].append('')
+                            data[k]['field_type'] = field_type
+                            data[k]['field_values'].append('')
         return data
 
-    def get_study_data2(self, study_id):
-        logger.info('getting study structure...')
-        study_structure_url = self.api_url + '/study/{}/export/structure'.format(study_id)
-        response = self.session.get(study_structure_url)
-        field_defs = {}
-        for line in response.text.split('\n')[1:]:
-            items = line.split(';')
-            if len(items) > 11:
-                field_type = items[11]
-                if field_type != 'calculation' and field_type != 'remark':
-                    field_id = items[8]
-                    field_variable_name = items[9]
-                    field_defs[field_id] = [field_variable_name, field_type]
-        # with open('/Users/Ralph/Desktop/study_structure.json', 'w') as f:
-        #     json.dump(field_defs, f, indent=4)
-        logger.info('getting study data...')
-        study_data_url = self.api_url + '/study/{}/export/data'.format(study_id)
-        response = self.session.get(study_data_url)
-        records = {}
-        for line in response.text.split('\n')[1:]:
-            items = line.split(';')
-            if len(items) == 9:
-                record_id = items[1]
-                form_type = items[2]
-                if form_type == '':
-                    records[record_id] = {}
-                elif form_type == 'Study':
-                    field_id = items[5]
-                    field_value = items[6]
-                    records[record_id][field_id] = field_value
-        # with open('/Users/Ralph/Desktop/study_data.json', 'w') as f:
-        #     json.dump(records, f, indent=4)
-        logger.info('building dataset...')
-        records_data = {}
-        for field_id in field_defs.keys():
-            field_variable_name = field_defs[field_id][0]
-            field_type = field_defs[field_id][1]
-            for record_id in list(records.keys()):  # Make sure we iterate over record IDs in increasing order
-                if field_id not in records_data.keys():
-                    records_data[field_id] = {'field_variable_name': field_variable_name, 'field_type': field_type, 'field_values': []}
-                if field_id in records[record_id].keys():
-                    records_data[field_id]['field_values'].append(records[record_id][field_id])
-                else:
-                    records_data[field_id]['field_values'].append('')
-        # print(json.dumps(records_data, indent=4))
-        return records_data
