@@ -135,6 +135,7 @@ class DictToSqlite3:
         return '{} {}'.format(field_name, DictToSqlite3.CASTOR_TO_SQL_TYPES[field_type])
 
     def generate_sql_for_creating_table(self, data):
+        logger.info(f'nr. columns: {len(data.keys())}')
         sql = 'CREATE TABLE data (id INTEGER PRIMARY KEY, '
         for field_name in data.keys():
             field_type = data[field_name]['field_type']
