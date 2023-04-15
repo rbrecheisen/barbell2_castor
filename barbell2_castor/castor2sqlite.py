@@ -12,21 +12,6 @@ logging.basicConfig()
 logger = logging.getLogger(__name__)
 
 
-""" --------------------------------------------------
-Extract Castor data via API and stores in Python 
-dictionary. Dictionary has the following structure:
-
-    data = {
-        'dpca_idcode': [],
-        'dpca_typok$1': [],
-        'dpca_typok$2': [],
-        'dpca_typok$3': [],
-        ...
-    }
-
-where the different options of each option group gets its own
-column in the final table. 
-"""
 class CastorToDict:
 
     def __init__(
@@ -51,10 +36,6 @@ class CastorToDict:
         return self.data
 
 
-""" --------------------------------------------------
-Takes Castor data from Excel export file and stores it
-in Python dictionary.
-"""
 class CastorExcelToDict:
 
     def __init__(self):
@@ -64,10 +45,6 @@ class CastorExcelToDict:
         return self.data
 
 
-""" --------------------------------------------------
-Converts Python dictionary with Castor data to SQLite3
-format for easy querying.
-"""
 class DictToSqlite3:
 
     CASTOR_TO_SQL_TYPES = {
@@ -175,50 +152,6 @@ class DictToSqlite3:
         return self.output_db_file
 
 
-""" --------------------------------------------------
-"""
-class CastorQuery:
-
-    def __init__(self, db_file):
-        self.db = self.load_db(db_file)
-        self.output = None
-
-    def __del__(self):
-        if self.db:
-            self.db.close()
-            self.db = None
-
-    def load_db(self, db_file):
-        try:
-            db = sqlite3.connect(db_file)
-            return db
-        except sqlite3.Error as e:
-            logger.error(e)
-        return None
-
-    @staticmethod
-    def get_column_names(data):
-        column_names = []
-        for column in data.description:
-            column_names.append(column[0])
-        return column_names
-    
-    def to_csv(self, output_file):
-        self.output.to_csv(output_file, sep=';', index=False)
-
-    def execute(self, query):
-        self.output = None
-        cursor = self.db.cursor()
-        data = cursor.execute(query)
-        df_data = []
-        for result in data:
-            df_data.append(result)
-        self.output = pd.DataFrame(df_data, columns=self.get_column_names(data))        
-        return self.output
-
-
-""" --------------------------------------------------
-"""
 if __name__ == '__main__':
     def main():
         c2d = CastorToDict(
@@ -235,8 +168,5 @@ if __name__ == '__main__':
             log_level=logging.INFO,
         )
         db_file = d2q.execute()
-        query_engine = CastorQuery(db_file)
-        df = query_engine.execute(
-            'SELECT dpca_idcode, dpca_typok$1, dpca_typok$2 FROM data WHERE dpca_typok$1 = 1;')
-        print(df.head())
+        print(db_file)
     main()
