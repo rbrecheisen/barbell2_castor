@@ -1,1 +1,4 @@
 wheel
+oauthlib
+requests-oauthlib
+pandas

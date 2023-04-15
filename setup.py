@@ -7,6 +7,9 @@ import os
 from setuptools import setup, find_packages
 
 requirements = [
+    'oauthlib',
+    'requests-oauthlib',
+    'pandas',
 ]
 
 setup_requirements = []
