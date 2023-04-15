@@ -40,9 +40,6 @@ class CastorApiClient:
         )
         return client_session
 
-    def recreate_session(self):
-        self.session = self.create_session(self.client_id, self.client_secret)
-
     def get_studies(self):
         uri = self.api_url + '/study'
         if self.verbose:
@@ -144,8 +141,6 @@ class CastorApiClient:
         logger.info('getting study structure...')
         study_structure_url = self.api_url + '/study/{}/export/structure'.format(study_id)
         response = self.session.get(study_structure_url)
-        # with open('study_structure.txt', 'w') as f:
-        #     f.write(response.text)
         field_defs = {}
         for line in response.text.split('\n')[1:]:
             items = line.split(';')
@@ -156,13 +151,9 @@ class CastorApiClient:
                     field_name = items[9]
                     field_option_group = items[15]
                     field_defs[field_id] = [field_name, field_type, field_option_group]
-        with open('study_structure.json', 'w') as f:
-            json.dump(field_defs, f, indent=4)
         logger.info('getting study data...')
         study_data_url = self.api_url + '/study/{}/export/data'.format(study_id)
         response = self.session.get(study_data_url)
-        # with open('study_data.txt', 'w') as f:
-        #     f.write(response.text)
         records = {}
         for line in response.text.split('\n')[1:]:
             items = line.split(';')
@@ -175,13 +166,9 @@ class CastorApiClient:
                     field_id = items[5]
                     field_value = items[6]
                     records[record_id][field_id] = field_value
-        with open('study_data.json', 'w') as f:
-            json.dump(records, f, indent=4)
         logger.info('getting study option groups...')
         study_optiongroups_url = self.api_url + '/study/{}/export/optiongroups'.format(study_id)
         response = self.session.get(study_optiongroups_url)
-        # with open('study_option_groups.txt', 'w') as f:
-        #     f.write(response.text)
         option_groups = {}
         for line in response.text.split('\n')[1:]:
             items = line.split(';')
@@ -190,8 +177,6 @@ class CastorApiClient:
                 if option_group_id not in option_groups.keys():
                     option_groups[option_group_id] = {}
                 option_groups[option_group_id][items[4]] = items[5]  # name, value
-        # with open('study_option_groups.json', 'w') as f:
-        #     json.dump(option_groups, f, indent=4)
         logger.info('building study data...')
         data = {}
         # Initialize study data
@@ -203,15 +188,12 @@ class CastorApiClient:
             field_type = field_defs[field_id][1]
             field_option_group = field_defs[field_id][2]
             if field_option_group == '':
-                # data[field_name] = []
                 data[field_name] = {'field_type': '', 'field_values': []}
             else:
                 for option_name in option_groups[option_group_id].keys():
                     option_value = option_groups[option_group_id][option_name]
                     k = f'{field_name}${option_value}'
-                    # data[k] = []
                     data[k] = {'field_type': '', 'field_values': []}
-        # print(json.dumps(data, indent=4))
         for field_id in field_defs.keys():
             field_name = field_defs[field_id][0]
             field_type = field_defs[field_id][1]
@@ -245,4 +227,3 @@ class CastorApiClient:
                             data[k]['field_type'] = field_type
                             data[k]['field_values'].append('')
         return data
-
