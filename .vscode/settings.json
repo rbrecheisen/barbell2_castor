@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/Users/ralph/.venv/barbell2_castor/bin/python",
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "python.envFile": "${workspaceFolder}/.env"
+}
