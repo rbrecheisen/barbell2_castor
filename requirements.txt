@@ -1,4 +1,5 @@
 wheel
+twine
 oauthlib
 requests-oauthlib
 pandas
