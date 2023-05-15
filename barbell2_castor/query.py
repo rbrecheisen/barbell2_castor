@@ -9,11 +9,7 @@ logging.basicConfig()
 logger = logging.getLogger(__name__)
 
 
-""" --------------------------------------------------
-Run SQL queries on SQL database and return results as 
-Pandas dataframe
-"""
-class CastorQuery:
+class CastorQueryRunner:
 
     def __init__(self, db_file):
         self.db = self.load_db(db_file)
@@ -55,7 +51,7 @@ class CastorQuery:
 
 if __name__ == '__main__':
     def main():
-        query_engine = CastorQuery('castor.db')
+        query_engine = CastorQueryRunner('castor.db')
         df = query_engine.execute(
             'SELECT dpca_idcode, dpca_typok$1, dpca_typok$2 FROM data WHERE dpca_typok$1 = 1;')
         print(df.head())
