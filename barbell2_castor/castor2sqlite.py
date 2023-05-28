@@ -1,9 +1,10 @@
 import os
 import json
 import logging
+import sqlite3
 
 # Recompiled version of sqlite3 with larger nr. of supported columns
-from pysqlite3 import dbapi2 as sqlite3
+# from pysqlite3 import dbapi2 as sqlite3
 from datetime import datetime
 from barbell2_castor.api import CastorApiClient
 

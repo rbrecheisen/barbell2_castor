@@ -1,43 +1,14 @@
 import os
 import json
-import logging
+import pandas as pd
 
-from datetime import datetime
-from barbell2_castor.api import CastorApiClient
-
-logging.basicConfig()
-logger = logging.getLogger(__name__)
+EXCEL_FILE_DPCA = os.path.join(os.environ['SURFDRIVE'], 'projects/hpb/castor/20230528_castor2sqlite3/ESPRESSO_v2.0_DPCA_excel_export_20230528115039.xlsx')
 
 
-""" ------------------------------------------------------------------------------------------------------------
-"""
-class CastorToDict:
-    
-    def __init__(
-            self,
-            study_name, 
-            client_id, 
-            client_secret, 
-            log_level=logging.INFO, 
-            ):
-        self.study_name = study_name
-        self.client_id = client_id
-        self.client_secret = client_secret
-        self.log_level = log_level
-        logging.root.setLevel(self.log_level)
-        self.data = {}
-
-    def execute(self):
-        client = CastorApiClient(self.client_id, self.client_secret)
-        study = client.get_study(self.study_name)
-        study_id = client.get_study_id(study)
-        self.data = client.get_study_data(study_id)
-        return self.data
-    
-    
-""" ------------------------------------------------------------------------------------------------------------
-What is the best way to split up the Castor data into SQL tables?
-Perhaps you shouel use PostgreSQL instead of SqLite
-"""
-class DictToSqlite3:
-    pass
+if __name__ == '__main__':
+    def main():
+        df_data = pd.read_excel(EXCEL_FILE_DPCA, sheet_name='Study results')
+        # df_vars = pd.read_excel(EXCEL_FILE_DPCA, sheet_name='Study variable list')
+        # df_opts = pd.read_excel(EXCEL_FILE_DPCA, sheet_name='Field options')
+        print(df_data.columns)
+    main()
