@@ -1,8 +1,9 @@
 import logging
+import sqlite3
 import pandas as pd
 
 # Recompiled version of sqlite3 with larger nr. of supported columns
-from pysqlite3 import dbapi2 as sqlite3
+# from pysqlite3 import dbapi2 as sqlite3
 
 
 logging.basicConfig()

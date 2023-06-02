@@ -3,4 +3,5 @@ twine
 oauthlib
 requests-oauthlib
 pandas
-pysqlite3
+#pysqlite3
+openpyxl

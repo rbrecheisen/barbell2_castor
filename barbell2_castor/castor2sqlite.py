@@ -1,9 +1,10 @@
 import os
+import json
 import logging
-import pandas as pd
+import sqlite3
 
 # Recompiled version of sqlite3 with larger nr. of supported columns
-from pysqlite3 import dbapi2 as sqlite3
+# from pysqlite3 import dbapi2 as sqlite3
 from datetime import datetime
 from barbell2_castor.api import CastorApiClient
 
@@ -171,6 +172,8 @@ class CastorToSqlite3:
 
     def execute(self):
         data = self.castor2dict.execute()
+        with open(self.output_db_file + '.json', 'w') as f:
+            json.dump(data, f)
         dict2sqlite = DictToSqlite3(data, self.output_db_file, self.add_timestamp, self.log_level)
         return dict2sqlite.execute()
 
