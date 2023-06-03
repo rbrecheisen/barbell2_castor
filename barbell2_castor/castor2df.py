@@ -118,13 +118,33 @@ class CastorDictToDataFrame:
             field_type = self.data[field_name]['field_type']
             if field_type == 'radio' or field_type == 'dropdown':
                 field_options = self.data[field_name]['field_options']
+                for option_value in field_options.keys():
+                    k = f'{field_name}${option_value}'
+                    data[k] = []
             else:
-                pass
+                data[field_name] = []
+        # add values to columns
+        for field_name in self.data.keys():
+            field_type = self.data[field_name]['field_type']
+            if field_type == 'radio' or field_type == 'dropdown':
+                field_options = self.data[field_name]['field_options']
+                for value in self.data[field_name]['field_values']:
+                    for option_value in field_options.keys():
+                        k = f'{field_name}${value}'
+                        if option_value == value:
+                            data[k].append('1')
+                        else:
+                            data[k].append('0')
+            else:
+                for value in self.data[field_name]['field_values']:
+                    data[field_name].append(value)
+        return pd.DataFrame(data=data)
         
 
 if __name__ == '__main__':
     def main():
         CSV_FILE = os.path.join(os.environ['HOME'], 'Desktop/castor.csv')
+        CSV_FILE = 'castor.csv'
         CASTOR_STUDY_NAME = 'ESPRESSO_v2.0_DPCA'
         a2d = CastorApiToDict(
             study_name=CASTOR_STUDY_NAME,

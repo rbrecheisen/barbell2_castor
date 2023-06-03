@@ -176,7 +176,7 @@ class CastorApiClient:
                 option_group_id = items[1]
                 if option_group_id not in option_groups.keys():
                     option_groups[option_group_id] = {}
-                option_groups[option_group_id][items[4]] = items[5]  # name, value
+                option_groups[option_group_id][items[5]] = items[4]  # name, value
         logger.info('building study data...')
         data = {}
         # Initialize study data
