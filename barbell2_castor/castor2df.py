@@ -129,6 +129,7 @@ class CastorDictToDataFrame:
             if field_type == 'radio' or field_type == 'dropdown':
                 field_options = self.data[field_name]['field_options']
                 for value in self.data[field_name]['field_values']:
+                    # !!! WHAT IF value = ''
                     for option_value in field_options.keys():
                         k = f'{field_name}${value}'
                         if option_value == value:
