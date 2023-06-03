@@ -143,7 +143,6 @@ class CastorDictToDataFrame:
 
 if __name__ == '__main__':
     def main():
-        CSV_FILE = os.path.join(os.environ['HOME'], 'Desktop/castor.csv')
         CSV_FILE = 'castor.csv'
         CASTOR_STUDY_NAME = 'ESPRESSO_v2.0_DPCA'
         a2d = CastorApiToDict(
@@ -155,9 +154,4 @@ if __name__ == '__main__':
         d2df = CastorDictToDataFrame(data)
         df = d2df.execute()
         df.to_csv(CSV_FILE, index=False, sep=';', decimal='.')
-        # EXCEL_FILE_DPCA = os.path.join(os.environ['SURFDRIVE'], 'projects/hpb/castor/20230528_castor2sqlite3/ESPRESSO_v2.0_DPCA_excel_export_20230528115039.xlsx')
-        # e2d = CastorExcelToDict(EXCEL_FILE_DPCA)
-        # data = e2d.execute()        
-        # with open('data.json', 'w') as f:
-        #     json.dump(data, f, indent=4)
     main()
