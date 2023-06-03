@@ -2,17 +2,11 @@ import os
 import json
 import pandas as pd
 
-EXCEL_FILE_DPCA = os.path.join(os.environ['SURFDRIVE'], 'projects/hpb/castor/20230528_castor2sqlite3/ESPRESSO_v2.0_DPCA_excel_export_20230528115039.xlsx')
-COLUMNS_TO_SKIP = [
-    'Participant Id',
-    'Participant Status',
-    'Site Abbreviation',
-    'Participant Creation Date',
-    'dpca_BMI',
-]
-FIELD_TYPES_TO_SKIP = ['remark', 'calculation']
+from barbell2_castor.api import CastorApiClient
 
 
+""" -------------------------------------------------------------------------------------------
+"""
 class CastorToDict:
     
     COLUMNS_TO_SKIP = [
@@ -25,15 +19,20 @@ class CastorToDict:
     FIELD_TYPES_TO_SKIP = ['remark', 'calculation']
     
     
+""" -------------------------------------------------------------------------------------------
+"""
 class CastorApiToDict(CastorToDict):
     
-    def __init__(self):
-        pass
+    def __init__(self, study_name, client_id, client_secret):
+        self.client = CastorApiClient(client_id, client_secret)
+        self.study_id = self.client.get_study_id(self.client.get_study(study_name))
     
     def execute(self):
-        pass
+        return self.client.get_study_data(self.study_id)
 
 
+""" -------------------------------------------------------------------------------------------
+"""
 class CastorExcelToDict(CastorToDict):
 
     def __init__(self, excel_file):
@@ -58,40 +57,42 @@ class CastorExcelToDict(CastorToDict):
             if field_type in CastorToDict.FIELD_TYPES_TO_SKIP:
                 continue
             field_name = row['Variable name']
+            data[field_name] = {
+                'field_type': field_type,
+                'field_options': None,
+                'field_values': [],
+            }
             if field_type == 'radio' or field_type == 'dropdown':
-                # this is an option group so we create a set of field names for each option item
-                option_items = option_groups[row['Optiongroup name']]
-                for option_value in option_items.keys():
-                    k = field_name + '$' + option_value
-                    data[k] = {'field_type': field_type, 'field_values': []}
+                data[field_name]['field_options'] = option_groups[row['Optiongroup name']]
             else:
-                data[field_name] = {'field_type': field_type, 'field_values': []}
+                pass
         
         # load data
         df_data = pd.read_excel(self.excel_file, sheet_name='Study results')
         for _, row in df_data.iterrows():
-            for column in row.keys():
-                if column in CastorToDict.COLUMNS_TO_SKIP or column.endswith('_calc'):
+            for field_name in row.keys():
+                if field_name in CastorToDict.COLUMNS_TO_SKIP or field_name.endswith('_calc'):
                     continue
-                column_value = str(row[column])
-                # what if this column refers to an option group? for example, dpca_geslacht? how do I
-                # detect this? the dictionary data contains name$value items for option groups. if this
-                # column refers to an option group, it should be listed in the option_groups dictionary, right?
-                if column in option_groups.keys():
-                    # column refers to an option group, so there are multiple keys for this column in the
-                    # data dictionary. first get the option items for this option group
-                    option_values = option_groups[column].keys()
-                    for option_value in option_values:
-                        k = column + '$' + option_value
-                        if option_value == column_value:
-                            data[k]['field_values'].append('1')
-                        else:
-                            data[k]['field_values'].append('0')                        
+                field_value = str(row[field_name])
+                if pd.isna(field_value) or field_value == 'nan':
+                    data[field_name]['field_values'].append('')
                 else:
-                    if pd.isna(column_value):
-                        data[column]['field_values'].append('')
-                    else:
-                        data[column]['field_values'].append(column_value)
+                    try:
+                        field_type = data[field_name]['field_type']
+                        if field_type == 'radio' or field_type == 'dropdown':
+                            data[field_name]['field_values'].append(str(int(float(field_value))))
+                        elif field_type == 'numeric':
+                            data[field_name]['field_values'].append(str(float(field_value)))
+                        elif field_type == 'string' or field_type == 'textarea':
+                            data[field_name]['field_values'].append(str(field_value))
+                        elif field_type == 'date':
+                            data[field_name]['field_values'].append(str(field_value))
+                        elif field_type == 'year':
+                            data[field_name]['field_values'].append(str(int(float(field_value))))
+                        else:
+                            raise RuntimeError(f'Unknown field type: {field_type}')
+                    except:
+                        print()
                 
         # check that field_value arrays are all the same length
         required_length = 0
@@ -103,12 +104,40 @@ class CastorExcelToDict(CastorToDict):
                 raise RuntimeError(f'Length for column {column} is not correct, should be {required_length} but is {length}')            
 
         return data
+    
+    
+class CastorDictToDataFrame:
+    
+    def __init__(self, data):
+        self.data = data
+    
+    def execute(self):
+        data = {}
+        # create table columns by expanding option group with one-hot encoding
+        for field_name in self.data.keys():
+            field_type = self.data[field_name]['field_type']
+            if field_type == 'radio' or field_type == 'dropdown':
+                field_options = self.data[field_name]['field_options']
+            else:
+                pass
         
 
 if __name__ == '__main__':
     def main():
-        ce2d = CastorExcelToDict(EXCEL_FILE_DPCA)
-        data = ce2d.execute()        
-        with open('data.json', 'w') as f:
-            json.dump(data, f, indent=4)
+        CSV_FILE = os.path.join(os.environ['HOME'], 'Desktop/castor.csv')
+        CASTOR_STUDY_NAME = 'ESPRESSO_v2.0_DPCA'
+        a2d = CastorApiToDict(
+            study_name=CASTOR_STUDY_NAME,
+            client_id=open(os.path.join(os.environ['HOME'], 'castorclientid.txt')).readline().strip(),
+            client_secret=open(os.path.join(os.environ['HOME'], 'castorclientsecret.txt')).readline().strip(),
+        )
+        data = a2d.execute()
+        d2df = CastorDictToDataFrame(data)
+        df = d2df.execute()
+        df.to_csv(CSV_FILE, index=False, sep=';', decimal='.')
+        # EXCEL_FILE_DPCA = os.path.join(os.environ['SURFDRIVE'], 'projects/hpb/castor/20230528_castor2sqlite3/ESPRESSO_v2.0_DPCA_excel_export_20230528115039.xlsx')
+        # e2d = CastorExcelToDict(EXCEL_FILE_DPCA)
+        # data = e2d.execute()        
+        # with open('data.json', 'w') as f:
+        #     json.dump(data, f, indent=4)
     main()

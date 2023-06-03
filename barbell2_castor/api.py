@@ -186,6 +186,80 @@ class CastorApiClient:
         for field_id in field_defs.keys():
             field_name = field_defs[field_id][0]
             field_type = field_defs[field_id][1]
+            field_option_group_id = field_defs[field_id][2]
+            field_options = None
+            if field_option_group_id != '':
+                field_options = option_groups[field_option_group_id]
+            data[field_name] = {
+                'field_type': field_type,
+                # 'field_option_group': field_option_group_id,
+                'field_options': field_options,
+                'field_values': [],
+            }
+        for field_id in field_defs.keys():
+            field_name = field_defs[field_id][0]
+            field_type = field_defs[field_id][1]
+            for record_id in list(records.keys()):
+                # We know field_name is one of the keys in data. We just need to check
+                # whether records has an entry for this field (with a value). If not, we
+                # assign empty string
+                data[field_name]['field_type'] = field_type
+                if field_id in records[record_id].keys():
+                    data[field_name]['field_values'].append(records[record_id][field_id])
+                else:
+                    data[field_name]['field_values'].append('')
+
+        return data
+    
+    def get_study_data_old(self, study_id):
+        logger.info('getting study structure...')
+        study_structure_url = self.api_url + '/study/{}/export/structure'.format(study_id)
+        response = self.session.get(study_structure_url)
+        field_defs = {}
+        for line in response.text.split('\n')[1:]:
+            items = line.split(';')
+            if len(items) == 16:
+                field_type = items[11]
+                if field_type != 'calculation' and field_type != 'remark':
+                    field_id = items[8]
+                    field_name = items[9]
+                    field_option_group = items[15]
+                    field_defs[field_id] = [field_name, field_type, field_option_group]
+        logger.info('getting study data...')
+        study_data_url = self.api_url + '/study/{}/export/data'.format(study_id)
+        response = self.session.get(study_data_url)
+        records = {}
+        for line in response.text.split('\n')[1:]:
+            items = line.split(';')
+            if len(items) == 9:
+                record_id = items[1]
+                form_type = items[2]
+                if form_type == '':
+                    records[record_id] = {}
+                elif form_type == 'Study':
+                    field_id = items[5]
+                    field_value = items[6]
+                    records[record_id][field_id] = field_value
+        logger.info('getting study option groups...')
+        study_optiongroups_url = self.api_url + '/study/{}/export/optiongroups'.format(study_id)
+        response = self.session.get(study_optiongroups_url)
+        option_groups = {}
+        for line in response.text.split('\n')[1:]:
+            items = line.split(';')
+            if len(items) == 6:
+                option_group_id = items[1]
+                if option_group_id not in option_groups.keys():
+                    option_groups[option_group_id] = {}
+                option_groups[option_group_id][items[4]] = items[5]  # name, value
+        logger.info('building study data...')
+        data = {}
+        # Initialize study data
+        # Iterate through all field definitions. For each, create a key in data. However,
+        # if the field is an option group, create additional keys in data, one for each 
+        # option value.
+        for field_id in field_defs.keys():
+            field_name = field_defs[field_id][0]
+            field_type = field_defs[field_id][1]
             field_option_group = field_defs[field_id][2]
             if field_option_group == '':
                 data[field_name] = {'field_type': '', 'field_values': []}
