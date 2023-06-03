@@ -10,6 +10,29 @@ logging.basicConfig()
 logger = logging.getLogger(__name__)
 
 
+class CastorPandasQueryRunner:
+
+    def __init__(self, csv_file, sep=';', decimal='.'):
+        self.csv_file = csv_file
+        self.df = pd.read_csv(csv_file, sep=sep, decimal=decimal, dtype=str)
+        self.df = self.convert_to_date_objects(self.df)
+        self.output = None
+
+    @staticmethod
+    def convert_to_date_objects(df):
+        for column in df.columns:
+            try:
+                x = pd.to_datetime(df[column], format='%y%m%d')
+                print(f'converted column {column} to date')
+                df[column] = x
+            except:
+                pass
+        return df
+
+    def execute(self, query):
+        pass
+
+
 class CastorQueryRunner:
 
     def __init__(self, db_file):
@@ -52,8 +75,11 @@ class CastorQueryRunner:
 
 if __name__ == '__main__':
     def main():
-        query_engine = CastorQueryRunner('castor.db')
-        df = query_engine.execute(
-            'SELECT dpca_idcode, dpca_typok$1, dpca_typok$2 FROM data WHERE dpca_typok$1 = 1;')
-        print(df.head())
+        # query_engine = CastorQueryRunner('castor.db')
+        # df = query_engine.execute(
+        #     'SELECT dpca_idcode, dpca_typok$1, dpca_typok$2 FROM data WHERE dpca_typok$1 = 1;')
+        # print(df.head())
+        query_engine = CastorPandasQueryRunner('/Users/Ralph/Desktop/castor2csv.csv')
+        # print(query_engine.df[query_engine.df.columns[295]])
+        print(query_engine.df['dpca_datok'].dtype)
     main()
