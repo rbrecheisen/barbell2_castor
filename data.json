@@ -1,0 +1,4870 @@
+{
+    "dpca_treathosp$1": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_treathosp$2": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_treathosp$3": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_idcode": {
+        "field_type": "string",
+        "field_values": []
+    },
+    "dpca_geslacht$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geslacht$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geslacht$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geslacht$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geslacht$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gebdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_gebjaar": {
+        "field_type": "year",
+        "field_values": []
+    },
+    "dpca_overl$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_overl$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_overl$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_datovl": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_commentsyesno$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commentsyesno$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comments": {
+        "field_type": "textarea",
+        "field_values": []
+    },
+    "dpca_id$103": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$113": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$172": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$156": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$502": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$111": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$118": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$500": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$135": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$181": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$133": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$149": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$119": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$153": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$139": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$112": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$189": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$123": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$136": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$164": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$193": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$170": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$109": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$131": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$195": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$196": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$143": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$144": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$187": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$151": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$152": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$202": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$158": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$173": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$116": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$177": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$121": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$155": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$137": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$194": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$163": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$106": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$191": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$211": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$142": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$147": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$132": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$175": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$126": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$167": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$148": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$124": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$157": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$183": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$105": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$134": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$501": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$166": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$185": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$128": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$192": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$199": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$203": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$160": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$184": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$108": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$504": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$178": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$114": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$138": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$197": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$186": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$165": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$129": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$122": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$201": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$146": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$182": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$169": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$127": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$110": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$101": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$107": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$204": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$140": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$150": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$104": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$171": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$120": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$179": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$117": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$168": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$505": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$267": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$180": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$241": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$601": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$617": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$618": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$807": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$1403": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$1561": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$600": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$266": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_id$162": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_verrichting_upn": {
+        "field_type": "string",
+        "field_values": []
+    },
+    "dpca_behperdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_reggroep$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reggroep$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reggroep$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commentsyesno_2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commentsyesno_2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comments_2": {
+        "field_type": "string",
+        "field_values": []
+    },
+    "dpca_lengte": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_gewicht": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_gewverlies": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_gewperiode": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_ecog$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ecog$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ecog$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ecog$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ecog$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ecog$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_verwijsdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_comorb$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorb$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbcar$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbcar$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbvas$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbvas$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbdia$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbdia$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbpul$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbpul$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbneu$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbneu$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbmda$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbmda$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorburo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorburo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbtro$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbtro$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbmus$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbmus$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbend$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbend$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbinf$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbinf$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbmal$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbmal$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbove$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comorbove$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar00$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar00$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar00$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar01$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar01$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar01$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar02$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar02$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar02$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar03$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar03$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar03$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar04$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar04$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar04$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar05$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar05$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar05$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar06$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar06$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar06$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar07$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar07$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar07$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar08$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar08$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar08$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar09$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar09$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar09$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar10$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar10$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcar10$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcarxx$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcarxx$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcarxx$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas4$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas4$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvas4$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvasx$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvasx$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comvasx$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdia3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiax$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiax$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiax$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compul3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compulx$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compulx$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compulx$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu4$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu4$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu4$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu5$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu5$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu5$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu6$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu6$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneu6$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneux$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneux$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comneux$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda4$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda4$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda4$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda5$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda5$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda5$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda6$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda6$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commda6$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commdax$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commdax$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commdax$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro4$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro4$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comuro4$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comurox$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comurox$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comurox$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtro3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtrox$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtrox$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comtrox$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commus3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commusx$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commusx$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commusx$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comend3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comendx$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comendx$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comendx$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominf3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominfx$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominfx$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cominfx$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal1$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal1$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal1$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal2$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal2$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal2$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal3$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal3$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal3$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal4$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal4$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commal4$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commalx$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commalx$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commalx$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_datcom": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_comlong$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comlong$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commyo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commyo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comhartfaal$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comhartfaal$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comperif$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comperif$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcva$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comcva$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comparalys$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comparalys$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdem$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdem$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiam$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiam$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiam$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiaminsu$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comdiaminsu$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comgiulcus$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comgiulcus$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comlever$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comlever$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comlever$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compancr$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compancr$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comnier$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comnier$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_combind$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_combind$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comhiv$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comhiv$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commalig$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_commalig$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lichbouw$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lichbouw$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lichbouw$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lichbouw$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bovarmomt$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bovarmomt$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bovarmomt$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bovarmomt$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bovarmomt$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tricepsplooi$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tricepsplooi$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tricepsplooi$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tricepsplooi$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tricepsplooi$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_spieropp$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_spieropp$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_spieropp$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_spieropp$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_spieropp$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vetopp$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vetopp$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vetopp$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vetopp$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vetopp$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_handknijp$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_handknijp$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_handknijp$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_handknijp$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_handknijp$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$8": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$10": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$11": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$12": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$13": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$14": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$15": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$16": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$17": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_G8$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MUST$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$8": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$10": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$11": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$12": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$13": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$14": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_MNA$9999": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_PG_SGA$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_PG_SGA$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_PG_SGA$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_PG_SGA$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_par_q$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_par_q$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_par_q_contra$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_par_q_contra$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_wr_peak": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_stamina": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_sat_start": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_sat_stop": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_hr_start": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_hr_stop": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_borg_start": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_borg_stop": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_sts_time": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_uag_time": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_orthesis$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_orthesis$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_walkaid$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_walkaid$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_walkdist": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_walk_sat_start": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_walk_sat_stop": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_walk_hr_start": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_walk_hr_stop": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_walk_borg_start": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_walk_borg_stop": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_walk_walkaid$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_walk_walkaid$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vsaq": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_dasi_raw": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_dasi_vo2": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_dasi_mets": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_phsyio_remarks": {
+        "field_type": "textarea",
+        "field_values": []
+    },
+    "dpca_bilirubine": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_hemoglobine": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_albu": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_contchrom$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contchrom$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_chrom": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_labchromogra_ug": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_igg4": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_cea": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_ca199": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_CRP": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_leuko": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_AF": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_gGT": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_ASAT": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_ALAT": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_LDH": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_beeldv$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_beeldv$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_beeldv$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ctscan$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ctscan$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ctscan$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_standaardct$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_standaardct$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_standaardct$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mri$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mri$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mri$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mrcp$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mrcp$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mrcp$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_beelddat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_beeldconcl$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_beeldconcl$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_beeldconcl$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_risico$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_risico$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_risico$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_verwijd$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_verwijd$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_component$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_component$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_verdikt$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_verdikt$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mural$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mural$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diameter$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diameter$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diagroot": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_lokalisatie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lokalisatie$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lokalisatie$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lokalisatie$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lokalisatie$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lokalisatie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vaten$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vaten$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vaten$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_venapm$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_venapm$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_amesen$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_amesen$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_trcoel$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_trcoel$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_hepatica$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_hepatica$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_circumcontact$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_circumcontact$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_circumcontact$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_circumcontact$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_circumcontact$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_circumcontact$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosevp$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosevp$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosevp$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosevp$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosevp$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactams$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactams$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactams$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactams$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactams$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactams$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseams$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseams$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseams$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseams$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseams$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contacttc$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contacttc$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contacttc$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contacttc$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contacttc$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contacttc$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosetc$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosetc$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosetc$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosetc$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenosetc$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactah$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactah$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactah$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactah$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactah$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_contactah$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseah$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseah$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseah$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseah$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stenoseah$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_structuren$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_structuren$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_structuren$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vet$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_vet$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maag$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maag$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_colont$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_colont$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mesocolont$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mesocolont$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_dunnedarm$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_dunnedarm$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_milt$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_milt$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bijnier$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bijnier$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_nier$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_nier$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lever$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lever$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_dcholedo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_dcholedo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lymfade$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lymfade$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lymfade$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_peripancr$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_peripancr$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ligahepato$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ligahepato$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mesenteriaal$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mesenteriaal$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_trunccoel$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_trunccoel$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_paraortaal$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_paraortaal$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metastasen$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metastasen$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metastasen$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalever$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalever$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaperito$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaperito$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalong$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalong$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaoverig$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaoverig$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_eus$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_eus$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_eus$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_eustumor$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_eustumor$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_eustumor$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bildrain$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bildrain$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bildrain$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bildrain$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_draindat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_typestent$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typestent$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typestent$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stentcover$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stentcover$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stentcover$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compdrain$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compdrain$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compdrain$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compocclusie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compocclusie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comppancreatitis$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_comppancreatitis$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compcholangitis$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compcholangitis$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compperforatie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compperforatie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compnabloeding$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compnabloeding$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_companders$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_companders$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reinterventie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reinterventie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reinterventie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reintaard$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reintaard$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reintaard$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reintaard$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cythist$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cythist$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cythist$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cythist$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderzoek$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderzoek$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderzoek$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderzoek$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderzoek$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderzoek$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderzoek$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cytdiagnose$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cytdiagnose$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cytdiagnose$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cytdiagnose$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cytdiagnose$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$8": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$77": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$19": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnose$99": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cythistdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_cytdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_histdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_ipmn$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmn$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmn$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmn$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmn$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneo$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneo$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneo$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_preopmdo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_preopmdo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_preopmdo$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_datpreopmdo": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_exploratie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_exploratie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metasafstand$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metasafstand$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_uitbreiding$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_uitbreiding$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_okrisico$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_okrisico$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cysteus$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_cysteus$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjuvant$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjuvant$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjuvant$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjuvant$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjuvant$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjuvant$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeneoadjuvant$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeneoadjuvant$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeneoadjuvant$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeneoadjuvant$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_neoadjaf$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjaf$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neoadjaf$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_neorecist$1": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_neorecist$2": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_neorecist$3": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_neorecist$4": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_neorecist$9": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_bijvoed$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bijvoed$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bijvoed$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bijvoed$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bijvoed$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_laparoscopie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_laparoscopie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_laparoscopie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_laparodat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_lapexplor$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lapexplor$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lapexplor$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lapexplor$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lapexplor$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_lapexplor$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_datok": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_standaardokverslag$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_standaardokverslag$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_standaardokverslag$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_duurok": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_bloedverlies": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_asascore$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_asascore$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_asascore$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_asascore$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_asascore$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_asascore$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resectie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resectie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasief$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasief$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasief$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasief$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasief$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasief$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasiefdim$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasiefdim$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_invasiefdim$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$10": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$77": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typok$99": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diamdp": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_diktepanc": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_tumorrest$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tumorrest$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tumorrest$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_exlapzbypass$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_exlapzbypass$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bildianastomose$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bildianastomose$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gastrojejuno$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gastrojejuno$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_coelblok$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_coelblok$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resanders$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resanders$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resonbekend$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resonbekend$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaperiton$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaperiton$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalev$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalev$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalymfkl$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metalymfkl$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_doorgrlokaal$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_doorgrlokaal$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geenanders$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geenanders$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geenonbekend$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_geenonbekend$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betramesent$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betramesent$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrtrcoel$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrtrcoel$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrahepati$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrahepati$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrvporta$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrvporta$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrvcava$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrvcava$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrmaag$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrmaag$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrcolon$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betrcolon$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betranders$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betranders$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betronbekend$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_betronbekend$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecveneus$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecveneus$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecveneus$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecveneus$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecveneus$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecart$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecart$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecart$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_arthepcomprop$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_arthepcomprop$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_arthepdexacces$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_arthepdexacces$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_arthepaberrant$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_arthepaberrant$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_truncuscoel$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_truncuscoel$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_artmesent$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_artmesent$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecanders$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecanders$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecaanv$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecaanv$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecaanv$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecmiltint$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_resecmiltint$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mesoctransv$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mesoctransv$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_colonsegm$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_colonsegm$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_hemicolr$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_hemicolr$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maagresec$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maagresec$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_aanvanders$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_aanvanders$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_aspect$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_aspect$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_aspect$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastomose$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anadetail$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anadetail$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anadetail$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anadetail$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anadetail$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anadetail$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_overhechten$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_overhechten$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderbinden$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_onderbinden$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_staplerz$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_staplerz$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_staplerm$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_staplerm$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tachosyl$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_tachosyl$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_weefselpatch$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_weefselpatch$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastmaagdarm$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anastmaagdarm$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_weefsellijm$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_weefsellijm$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_procoverig$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_procoverig$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_procoverig$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_drain$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_drain$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_octreo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_octreo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typesom$1": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_typesom$2": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_typesom$3": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_typesom$7": {
+        "field_type": "dropdown",
+        "field_values": []
+    },
+    "dpca_voedjeju$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_voedjeju$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_nasojeju$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_nasojeju$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anasinw$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anasinw$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anasuitw$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_anasuitw$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_biliodig$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_biliodig$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_verover$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_verover$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compl$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compl$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compl$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_fistel$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_fistel$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_fistel$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_fistel2016$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_fistel2016$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_fistel2016$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_fistel2016$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maagontl$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maagontl$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maagontl$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_maagontl$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gallek$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gallek$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gallek$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gallek$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bloeding$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bloeding$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bloeding$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bloeding$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_chylus2016$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_chylus2016$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_chylus2016$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_chylus2016$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_pneumonie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_pneumonie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_pneumonie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_wondinfectie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_wondinfectie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_wondinfectie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compreintv$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compreintv$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_compreintv$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reoper$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reoper$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reoper$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_endoscop$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_endoscop$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_endoscop$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radiolo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radiolo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radiolo$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reintvdat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_reintvanaest$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reintvanaest$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_reintvanaest$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcicopname$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcicopname$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcicopname$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_orgaanfalen$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_orgaanfalen$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_orgaanfalen$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_orgaanfalen$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_letselblijvend$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_letselblijvend$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_letselblijvend$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_transfusie$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_transfusie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_transfusie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mdopostop$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mdopostop$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mdopostop$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_datdrainverw": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_palliatief$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_palliatief$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_palliatief$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_chemo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_chemo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radiother$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radiother$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stentduo$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stentduo$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stentgal$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stentgal$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bilanast$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_bilanast$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gastrjejun$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_gastrjejun$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_palliadat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_pathverslag$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_pathverslag$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_pathverslag$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_PAnr": {
+        "field_type": "string",
+        "field_values": []
+    },
+    "dpca_alleenvc$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_alleenvc$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_origine$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_origine$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_origine$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_origine$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_origine$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_origine$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$8": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$77": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$19": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_histdiagnpost$99": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmnpost$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmnpost$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmnpost$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmnpost$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ipmnpost$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneopost$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneopost$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneopost$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneopost$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_mcneopost$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diameterpost": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_radicaliteit$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radicaliteit$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radicaliteit$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_radmarge": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_differentiatie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_differentiatie$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_differentiatie$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_differentiatie$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_differentiatie$8": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_differentiatie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diffnet$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diffnet$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diffnet$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diffnet$8": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_diffnet$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpanc2018$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$10": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptpapil2019$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal2019$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal2019$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal2019$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal2019$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal2019$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptdistaal2019$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptduodenum2019$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptduodenum2019$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptduodenum2019$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptduodenum2019$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptduodenum2019$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptduodenum2019$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_stadptduodenum2019$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_numlym": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_numlympos": {
+        "field_type": "numeric",
+        "field_values": []
+    },
+    "dpca_metaafstand$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaafstand$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_metaafstand$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_panodestud$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_panodestud$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_responshtrg$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_responshtrg$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_responshtrg$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_responshtrg$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvant$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvant$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvant$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvant$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvant$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvant$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvantstart$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjuvantstart$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeadjuvant$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeadjuvant$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeadjuvant$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_typeadjuvant$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_adjudat": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_status$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_status$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_status$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_redenoverlijden$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_redenoverlijden$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_status2018$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_status2018$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_status2018$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_datopn": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_datont": {
+        "field_type": "date",
+        "field_values": []
+    },
+    "dpca_ontslagbrief$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ontslagbrief$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_ontslagbrief$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_heropname$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_heropname$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_heropname$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_opmerk": {
+        "field_type": "textarea",
+        "field_values": []
+    },
+    "dpca_klaar$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_klaar$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$7": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$8": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$77": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$19": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_afwijking$99": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_locatie$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_locatie$2": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_locatie$3": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_locatie$4": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_locatie$5": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_locatie$6": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_locatie$9": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_DPCA$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_DPCA$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_Organoid$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_Organoid$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_CL": {
+        "field_type": "string",
+        "field_values": []
+    },
+    "dpca_Biobank$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_Biobank$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_BiobankID": {
+        "field_type": "string",
+        "field_values": []
+    },
+    "dpca_Marielle$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_Marielle$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_DVD$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_DVD$1": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_Lieke$0": {
+        "field_type": "radio",
+        "field_values": []
+    },
+    "dpca_Lieke$1": {
+        "field_type": "radio",
+        "field_values": []
+    }
+}
